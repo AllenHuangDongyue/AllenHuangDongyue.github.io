@@ -2,9 +2,9 @@
 # Site settings
 title: 
 email: 
-baseurl: /AllenHuangDongyue.github.io.git # the subpath of your site, e.g. /blog/
+#baseurl: "/JekyllTheme-ProjectGaia" # the subpath of your site, e.g. /blog/
 #baseurl:
-url: https://AllenHuangDongyue.github.io.git # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 markdown: kramdown
 # toc_levels: 1……2
