@@ -1,0 +1,65 @@
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" id="categories">
+        <div class="page-header">
+          <h3>Categories</h3>
+        </div>
+
+        {% for cat in site.categories %}
+
+        <a class="badge badge-secondary" data-toggle="collapse" href="#c_{{cat[0]}}" aria-expanded="false"
+          aria-controls="c_{{cat[0]}}">
+          {{ cat[0] }}<sup>{{ cat[1].size }}</sup>
+        </a>
+        {% endfor %}
+      </div>
+
+      <div class="col-md-12" id="tags">
+        <div class="page-header">
+          <h3>Tags</h3>
+        </div>
+        {% for tag in site.tags %}
+        <a class="badge badge-secondary" data-toggle="collapse" href="#t_{{tag[0]}}" aria-expanded="false"
+          aria-controls="t{{tag[0]}}">
+          {{ tag[0] }}<sup>{{ tag[1].size }}</sup>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row pt-5" id="posts" class="accordion">
+      <div class="w-100">
+        <!-- DO NOT DELETE ABOVE DIV -->
+        {% for cat in site.categories %}
+        <div class="col-12 collapse" id="c_{{cat[0]}}" aria-labelledby="c_{{cat[0]}}" data-parent="#posts">
+          <ul class="list-group">
+            {% for post in cat[1] %}
+            <li class="list-group-item list-group-item-secondary">
+              <a href="{{ post.url }}" class="text-dark">
+                {{ post.date | date: "%Y-%m-%d" }} <b>{{ post.title }}</b>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+
+        {% for tag in site.tags %}
+        <div class="col-12 collapse" id="t_{{tag[0]}}" aria-labelledby="t_{{tag[0]}}" data-parent="#posts">
+          <ul class="list-group">
+            {% for post in tag[1] %}
+            <li class="list-group-item list-group-item-secondary">
+              <a href="{{ post.url }}" class="text-dark">
+                {{ post.date | date: "%Y-%m-%d" }} <b>{{ post.title }}</b>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
