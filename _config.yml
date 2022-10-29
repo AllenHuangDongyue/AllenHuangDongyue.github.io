@@ -2,7 +2,7 @@
 # Site settings
 title: 
 email: 
-baseurl: "/JekyllTheme-ProjectGaia" # the subpath of your site, e.g. /blog/
+baseurl: /AllenHuangDongyue.github.io.git # the subpath of your site, e.g. /blog/
 #baseurl:
 url: https://AllenHuangDongyue.github.io.git # the base hostname & protocol for your site
 
