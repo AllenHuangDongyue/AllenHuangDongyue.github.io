@@ -12,11 +12,53 @@
             <span class="pull-right ">{{ site.posts.size}}</span>
         </a>
     </li>
+
+<!--    <li data-toggle="tooltip" data-placement="left" data-original-title="Categories">-->
+<!--        <a href="{{site.url}}{{site.baseurl}}/categories.html">-->
+<!--            <i class="fa fa-tags" aria-hidden="true"></i>-->
+<!--            Categories-->
+<!--            <span class="pull-right ">{{ site.categories.size}}</span>-->
+<!--        </a>-->
+<!--    </li>-->
     <li data-toggle="tooltip" data-placement="left" data-original-title="Categories">
-        <a href="{{site.url}}{{site.baseurl}}/categories.html">
+        <a href="#c_{{cat[0]}}" data-toggle="collapse" aria-expanded="false" aria-controls="c_{{cat[0]}}">
             <i class="fa fa-tags" aria-hidden="true"></i>
-            Categories 
-            <span class="pull-right ">{{ site.categories.size}}</span>
+            Categories
+            <span class="pull-right "></span>
+        </a>
+    </li>
+
+    <div class="col-12 collapse" id="c_{{cat[0]}}" aria-labelledby="c_{{cat[0]}}" data-parent="">
+        <ul class="list-group">
+            <li data-toggle="tooltip" data-placement="left" data-original-title="My Rambles">
+                <a href="{{site.url}}{{site.baseurl}}/categories.html" >
+                    <i class="fa fa-coffee" aria-hidden="true"> </i>
+                    My Rambles
+                    <span class="pull-right "></span>
+                </a>
+            </li>
+            <li data-toggle="tooltip" data-placement="left" data-original-title="My Travels">
+                <a href="{{site.url}}{{site.baseurl}}/categories.html" >
+                    <i class="fa fa-plane" aria-hidden="true"> </i>
+                    My Travels
+                    <span class="pull-right "></span>
+                </a>
+            </li>
+            <li data-toggle="tooltip" data-placement="left" data-original-title="My Learnings">
+                <a href="{{site.url}}{{site.baseurl}}/categories.html" >
+                    <i class="fa fa-book" aria-hidden="true"> </i>
+                    My Learnings
+                    <span class="pull-right "></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <li data-toggle="tooltip" data-placement="left" data-original-title="Gallery">
+        <a href="{{site.url}}{{site.baseurl}}/gallery.html">
+            <i class="fa fa-photo" aria-hidden="true"></i>
+            Gallery
+            <span class="pull-right ">{{ site.gallery.size}}</span>
         </a>
     </li>
     <li data-toggle="tooltip" data-placement="left" data-original-title="About Me">

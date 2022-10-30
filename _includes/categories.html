@@ -1,13 +1,12 @@
 <div id="page-content-wrapper">
   <div class="container-fluid">
     <div class="row">
+
       <div class="col-md-12" id="categories">
         <div class="page-header">
           <h3>Categories</h3>
         </div>
-
         {% for cat in site.categories %}
-
         <a class="badge badge-secondary" data-toggle="collapse" href="#c_{{cat[0]}}" aria-expanded="false"
           aria-controls="c_{{cat[0]}}">
           {{ cat[0] }}<sup>{{ cat[1].size }}</sup>
