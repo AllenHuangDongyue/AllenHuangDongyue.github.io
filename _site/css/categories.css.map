@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "categories.css",
+	"sources": [
+		"categories.scss",
+		"_sass/colors.scss",
+		"_sass/mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"mixins\";\n\n#posts {\n  li.list-group-item {\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    overflow: hidden;\n  }\n}",
+		"$lightblue: #81b8e9;\n$blue: #0275d8;\n$darkblue: #05203e;\n$grey: #636c72;\n$orange: orange;\n$deepgrey: #111319;\n$midgrey: rgba(39, 38, 38, 0.7);\n$lightgrey: #ddd;\n$white: white;\n$red: #f50;\n$darkred: darkred;\n$lightgreen: #87d068;\n$black: black;",
+		"@mixin box-shadow($shadows...) {\n  -moz-box-shadow: $shadows;\n  -webkit-box-shadow: $shadows;\n  box-shadow: $shadows;\n}\n/* .xxx {\n  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);\n} */\n\n@mixin transition($args...) {\n  -webkit-transition: $args;\n  -moz-transition: $args;\n  -o-transition: $args;\n  transition: $args;\n}\n\n@mixin animation($duration, $delay, $iterationCount) {\n  -webkit-animation-duration: $duration;\n  -webkit-animation-delay: $delay;\n  -webkit-animation-iteration-count: $iterationCount;\n  -moz-animation-duration: $duration;\n  -moz-animation-delay: $delay;\n  -moz-animation-iteration-count: $iterationCount;\n}"
+	],
+	"names": [],
+	"mappings": "AEKA,wEAEI;AFJJ,AACE,MADI,CACJ,EAAE,AAAA,gBAAgB,CAAC,EACjB,WAAW,EAAE,MAAM,EACnB,aAAa,EAAE,QAAQ,EACvB,QAAQ,EAAE,MAAM,GACjB"
+}

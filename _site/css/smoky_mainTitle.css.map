@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "smoky_mainTitle.css",
+	"sources": [
+		"smoky_mainTitle.scss"
+	],
+	"sourcesContent": [
+		"body {\n  background: black;\n  color: transparent;\n  backface-visibility: hidden;\n}\n\nspan-smokeMain {\n  display: inline-block;\n  text-shadow: 0 0 0 whitesmoke;\n  animation: smoky 2s 2s both;\n}\n\nspan-smokeMain:nth-child(even){\n  animation-name: smoky-mirror;\n}\n@keyframes smoky {\n  60% {\n    text-shadow: 0 0 40px whitesmoke;\n  }\n  from {\n    transform:\n            translate3d(0,0,20rem)\n            scale(1.5);\n    text-shadow: 0 0 20px whitesmoke;\n    opacity: 0;\n  }\n}\n\n@keyframes smoky-mirror {\n  60% {\n    text-shadow: 0 0 40px whitesmoke; }\n  from {\n    transform:\n            translate3d(0,0,20rem)\n            scale(2);\n    text-shadow: 0 0 20px whitesmoke;\n    opacity: 0;\n  }\n}\n\n//@for $item from 1 through 21 {\n//  span-smokeMain:nth-of-type(#{$item}) {\n//    animation-delay: #{(3 + ($item/3))}s;\n//  }\n//}\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACH,UAAU,EAAE,KAAK,EACjB,KAAK,EAAE,WAAW,EAClB,mBAAmB,EAAE,MAAM,GAC5B;;AAED,AAAA,cAAc,CAAC,EACb,OAAO,EAAE,YAAY,EACrB,WAAW,EAAE,gBAAgB,EAC7B,SAAS,EAAE,gBAAgB,GAC5B;;AAED,AAAA,cAAc,CAAC,SAAU,CAAA,IAAI,EAAC,EAC5B,cAAc,EAAE,YAAY,GAC7B;;AACD,UAAU,CAAV,KAAU,GACR,GAAG,GACD,WAAW,EAAE,mBAAmB;EAElC,IAAI,GACF,SAAS,EACD,wBAAsB,CACtB,UAAU;IAClB,WAAW,EAAE,mBAAmB;IAChC,OAAO,EAAE,CAAC;;AAId,UAAU,CAAV,YAAU,GACR,GAAG,GACD,WAAW,EAAE,mBAAmB;EAClC,IAAI,GACF,SAAS,EACD,wBAAsB,CACtB,QAAQ;IAChB,WAAW,EAAE,mBAAmB;IAChC,OAAO,EAAE,CAAC"
+}

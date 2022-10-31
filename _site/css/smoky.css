@@ -1,0 +1,59 @@
+body { background: black; color: transparent; backface-visibility: hidden; }
+
+span-smoke { display: inline-block; text-shadow: 0 0 0 whitesmoke; animation: smoky 4s 2s both; }
+
+span-smoke:nth-child(even) { animation-name: smoky-mirror; }
+
+@keyframes smoky { 60% { text-shadow: 0 0 40px whitesmoke; }
+  from { transform: translate3d(15rem, -8rem, 0) rotate(-40deg) skewX(70deg) scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0; } }
+
+@keyframes smoky-mirror { 60% { text-shadow: 0 0 40px whitesmoke; }
+  from { transform: translate3d(18rem, -8rem, 0) rotate(-40deg) skewX(-70deg) scale(2);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0; } }
+
+span-smoke:nth-of-type(1) { animation-delay: 4s; }
+
+span-smoke:nth-of-type(2) { animation-delay: 5s; }
+
+span-smoke:nth-of-type(3) { animation-delay: 6s; }
+
+span-smoke:nth-of-type(4) { animation-delay: 7s; }
+
+span-smoke:nth-of-type(5) { animation-delay: 8s; }
+
+span-smoke:nth-of-type(6) { animation-delay: 9s; }
+
+span-smoke:nth-of-type(7) { animation-delay: 10s; }
+
+span-smoke:nth-of-type(8) { animation-delay: 11s; }
+
+span-smoke:nth-of-type(9) { animation-delay: 12s; }
+
+span-smoke:nth-of-type(10) { animation-delay: 13s; }
+
+span-smoke:nth-of-type(11) { animation-delay: 14s; }
+
+span-smoke:nth-of-type(12) { animation-delay: 15s; }
+
+span-smoke:nth-of-type(13) { animation-delay: 16s; }
+
+span-smoke:nth-of-type(14) { animation-delay: 17s; }
+
+span-smoke:nth-of-type(15) { animation-delay: 18s; }
+
+span-smoke:nth-of-type(16) { animation-delay: 19s; }
+
+span-smoke:nth-of-type(17) { animation-delay: 20s; }
+
+span-smoke:nth-of-type(18) { animation-delay: 21s; }
+
+span-smoke:nth-of-type(19) { animation-delay: 22s; }
+
+span-smoke:nth-of-type(20) { animation-delay: 23s; }
+
+span-smoke:nth-of-type(21) { animation-delay: 24s; }
+
+/*# sourceMappingURL=smoky.css.map */

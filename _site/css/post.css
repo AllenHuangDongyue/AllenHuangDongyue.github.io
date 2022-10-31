@@ -1,0 +1,12 @@
+/* .xxx { @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999); } */
+div#post-content .table td, div#post-content .table th { border: 1px solid grey; }
+
+div#post-content .table thead th { border: 1px solid grey; }
+
+div#reading-progress { height: 3px; }
+
+@media (min-width: 1024px) { div#post-content { width: 70vw; } }
+
+@media (min-width: 1200px) { div#post-content { text-shadow: 0.5px 0.5px 1px black !important; } }
+
+/*# sourceMappingURL=post.css.map */

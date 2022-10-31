@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"index.scss"
+	],
+	"sourcesContent": [
+		"iframe.content{\n    width: 100%;\n    height: 100%;\n}\nbody{\n    padding: 0px;\n    margin: 0px;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,AAAA,QAAQ,CAAA,EACV,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACf;;AACD,AAAA,IAAI,CAAA,EACA,OAAO,EAAE,GAAG,EACZ,MAAM,EAAE,GAAG,GACd"
+}

@@ -1,0 +1,8 @@
+/* .xxx { @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999); } */
+div.pagination a { padding: 2px; margin: 5px; color: #0275d8 !important; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 4px; text-decoration: none; cursor: pointer; }
+
+div.pagination a.jp-disabled { color: #636c72 !important; cursor: not-allowed; }
+
+div.pagination a.jp-current { color: white !important; background: #81b8e9; }
+
+/*# sourceMappingURL=jPages.css.map */

@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "head.css",
+	"sources": [
+		"head.scss",
+		"_sass/headBackground.scss"
+	],
+	"sourcesContent": [
+		"@import \"headBackground\";\n\n#jumbotron {\n  background: url($headBackground) no-repeat center center scroll;\n  background-size: 100% 100%;\n  @media (min-width: 800px) {\n    height: 110vh;\n  }\n  @media (max-width: 800px) {\n    height: 100%;\n  }\n  div#blurBox {\n    background-color: rgba(0, 0, 0, 0.3);\n  }\n}\n.mainTitle{\n  font-family: 华文行楷;\n  font-size: 95px;\n  line-height: 60px;\n  padding-left: 2px;\n}\n.two{\n  writing-mode: vertical-lr;\n  padding-left: 30%;\n  padding-top: 0%;\n  line-height: 65px;\n  list-style: none;\n  font-family: 楷体;\n  font-size: 30px;\n  margin: 0;\n  height: 20%;\n}\n",
+		"$headBackground: \"https://raw.githubusercontent.com/AllenHuangDongyue/AllenHuangDongyue.github.io/main/img/bg_h.png\";"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,UAAU,CAAC,EACT,UAAU,EAAE,wGAAoB,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,CAAC,MAAM,EAC/D,eAAe,EAAE,SAAS,GAU3B;;AATC,MAAM,mBAHR,GAAA,AAAA,UAAU,CAAC,EAIP,MAAM,EAAE,KAAK,GAQhB,EAAA;;AANC,MAAM,mBANR,GAAA,AAAA,UAAU,CAAC,EAOP,MAAM,EAAE,IAAI,GAKf,EAAA;;AAZD,AASE,UATQ,CASR,GAAG,AAAA,QAAQ,CAAC,EACV,gBAAgB,EAAE,kBAAkB,GACrC;;AAEH,AAAA,UAAU,CAAA,EACR,WAAW,EAAE,QAAQ,EACrB,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,IAAI,EACjB,YAAY,EAAE,GAAG,GAClB;;AACD,AAAA,IAAI,CAAA,EACF,YAAY,EAAE,WAAW,EACzB,YAAY,EAAE,GAAG,EACjB,WAAW,EAAE,EAAE,EACf,WAAW,EAAE,IAAI,EACjB,UAAU,EAAE,IAAI,EAChB,WAAW,EAAE,IAAI,EACjB,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,GAAG,GACZ"
+}

@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "md-post-header-collapse.css",
+	"sources": [
+		"md-post-header-collapse.scss",
+		"_sass/colors.scss",
+		"_sass/mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"mixins\";\n\ni.headerbtn {\n  font-size: 16px;\n  position: relative;\n  margin-left: -1rem;\n  padding-right: 5px;\n  color: $deepgrey;\n  @include transition(opacity 1s);\n  opacity: 0;\n  &:hover {\n    cursor: pointer;\n  }\n}\n\nh1,\nh2,\nh3 {\n  &:hover {\n    i.headerbtn {\n      opacity: 1;\n      visibility: visible;\n    }\n  }\n}\n",
+		"$lightblue: #81b8e9;\n$blue: #0275d8;\n$darkblue: #05203e;\n$grey: #636c72;\n$orange: orange;\n$deepgrey: #111319;\n$midgrey: rgba(39, 38, 38, 0.7);\n$lightgrey: #ddd;\n$white: white;\n$red: #f50;\n$darkred: darkred;\n$lightgreen: #87d068;\n$black: black;",
+		"@mixin box-shadow($shadows...) {\n  -moz-box-shadow: $shadows;\n  -webkit-box-shadow: $shadows;\n  box-shadow: $shadows;\n}\n/* .xxx {\n  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);\n} */\n\n@mixin transition($args...) {\n  -webkit-transition: $args;\n  -moz-transition: $args;\n  -o-transition: $args;\n  transition: $args;\n}\n\n@mixin animation($duration, $delay, $iterationCount) {\n  -webkit-animation-duration: $duration;\n  -webkit-animation-delay: $delay;\n  -webkit-animation-iteration-count: $iterationCount;\n  -moz-animation-duration: $duration;\n  -moz-animation-delay: $delay;\n  -moz-animation-iteration-count: $iterationCount;\n}"
+	],
+	"names": [],
+	"mappings": "AEKA,wEAEI;AFJJ,AAAA,CAAC,AAAA,UAAU,CAAC,EACV,SAAS,EAAE,IAAI,EACf,QAAQ,EAAE,QAAQ,EAClB,WAAW,EAAE,KAAK,EAClB,aAAa,EAAE,GAAG,EAClB,KAAK,ECHI,OAAO,ECKhB,kBAAkB,EFDE,OAAO,CAAC,EAAE,EEE9B,eAAe,EFFK,OAAO,CAAC,EAAE,EEG9B,aAAa,EFHO,OAAO,CAAC,EAAE,EEI9B,UAAU,EFJU,OAAO,CAAC,EAAE,EAC9B,OAAO,EAAE,CAAC,GAIX;;AAXD,AAQE,CARD,AAAA,UAAU,CAQP,KAAK,CAAC,EACN,MAAM,EAAE,OAAO,GAChB;;AAGH,AAII,EAJF,CAGE,KAAK,CACL,CAAC,AAAA,UAAU,EAHf,EAAE,CAEE,KAAK,CACL,CAAC,AAAA,UAAU,EAFf,EAAE,CACE,KAAK,CACL,CAAC,AAAA,UAAU,CAAC,EACV,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,OAAO,GACpB"
+}

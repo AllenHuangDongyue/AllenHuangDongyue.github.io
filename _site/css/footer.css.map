@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"footer.scss",
+		"_sass/colors.scss",
+		"_sass/mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"mixins\";\n\nfooter {\n  font-size: 0.8rem;\n  color: $grey;\n  padding: 40px 0;\n  background: $deepgrey;\n  @include box-shadow(0px -3px 5px $deepgrey);\n  a {\n    color: $orange;\n  }\n  div.row {\n    div {\n      border-right: 1px solid $midgrey;\n      border-left: 1px solid $midgrey;\n    }\n  }\n\n  .table {\n    td,\n    th {\n      vertical-align: top;\n      border-top: 1px solid $midgrey;\n      color: $lightgrey;\n    }\n  }\n}\n",
+		"$lightblue: #81b8e9;\n$blue: #0275d8;\n$darkblue: #05203e;\n$grey: #636c72;\n$orange: orange;\n$deepgrey: #111319;\n$midgrey: rgba(39, 38, 38, 0.7);\n$lightgrey: #ddd;\n$white: white;\n$red: #f50;\n$darkred: darkred;\n$lightgreen: #87d068;\n$black: black;",
+		"@mixin box-shadow($shadows...) {\n  -moz-box-shadow: $shadows;\n  -webkit-box-shadow: $shadows;\n  box-shadow: $shadows;\n}\n/* .xxx {\n  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);\n} */\n\n@mixin transition($args...) {\n  -webkit-transition: $args;\n  -moz-transition: $args;\n  -o-transition: $args;\n  transition: $args;\n}\n\n@mixin animation($duration, $delay, $iterationCount) {\n  -webkit-animation-duration: $duration;\n  -webkit-animation-delay: $delay;\n  -webkit-animation-iteration-count: $iterationCount;\n  -moz-animation-duration: $duration;\n  -moz-animation-delay: $delay;\n  -moz-animation-iteration-count: $iterationCount;\n}"
+	],
+	"names": [],
+	"mappings": "AEKA,wEAEI;AFJJ,AAAA,MAAM,CAAC,EACL,SAAS,EAAE,MAAM,EACjB,KAAK,ECFA,OAAO,EDGZ,OAAO,EAAE,MAAM,EACf,UAAU,ECFD,OAAO,ECJhB,eAAe,EFOK,GAAG,CAAE,IAAG,CAAC,GAAG,CCHvB,OAAO,ECHhB,kBAAkB,EFME,GAAG,CAAE,IAAG,CAAC,GAAG,CCHvB,OAAO,ECFhB,UAAU,EFKU,GAAG,CAAE,IAAG,CAAC,GAAG,CCHvB,OAAO,GDsBjB;;AAxBD,AAME,MANI,CAMJ,CAAC,CAAC,EACA,KAAK,ECNA,MAAM,GDOZ;;AARH,AAUI,MAVE,CASJ,GAAG,AAAA,IAAI,CACL,GAAG,CAAC,EACF,YAAY,EAAE,GAAG,CAAC,KAAK,CCRnB,qBAAqB,EDSzB,WAAW,EAAE,GAAG,CAAC,KAAK,CCTlB,qBAAqB,GDU1B;;AAbL,AAiBI,MAjBE,CAgBJ,MAAM,CACJ,EAAE,EAjBN,MAAM,CAgBJ,MAAM,CAEJ,EAAE,CAAC,EACD,cAAc,EAAE,GAAG,EACnB,UAAU,EAAE,GAAG,CAAC,KAAK,CCjBjB,qBAAqB,EDkBzB,KAAK,ECjBC,IAAI,GDkBX"
+}

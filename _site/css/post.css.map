@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "post.css",
+	"sources": [
+		"post.scss",
+		"_sass/colors.scss",
+		"_sass/mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"mixins\";\n\ndiv#post-content {\n  .table {\n    td,\n    th {\n      border: 1px solid grey;\n    }\n    thead th {\n      border: 1px solid grey;\n    }\n  }\n}\n\ndiv#reading-progress {\n  height: 3px;\n}\n\ndiv#post-content {\n  @media (min-width: 1024px) {\n    width: 70vw;\n  }\n  @media (min-width: 1200px) {\n    text-shadow: 0.5px 0.5px 1px black !important;\n  }\n}\n",
+		"$lightblue: #81b8e9;\n$blue: #0275d8;\n$darkblue: #05203e;\n$grey: #636c72;\n$orange: orange;\n$deepgrey: #111319;\n$midgrey: rgba(39, 38, 38, 0.7);\n$lightgrey: #ddd;\n$white: white;\n$red: #f50;\n$darkred: darkred;\n$lightgreen: #87d068;\n$black: black;",
+		"@mixin box-shadow($shadows...) {\n  -moz-box-shadow: $shadows;\n  -webkit-box-shadow: $shadows;\n  box-shadow: $shadows;\n}\n/* .xxx {\n  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);\n} */\n\n@mixin transition($args...) {\n  -webkit-transition: $args;\n  -moz-transition: $args;\n  -o-transition: $args;\n  transition: $args;\n}\n\n@mixin animation($duration, $delay, $iterationCount) {\n  -webkit-animation-duration: $duration;\n  -webkit-animation-delay: $delay;\n  -webkit-animation-iteration-count: $iterationCount;\n  -moz-animation-duration: $duration;\n  -moz-animation-delay: $delay;\n  -moz-animation-iteration-count: $iterationCount;\n}"
+	],
+	"names": [],
+	"mappings": "AEKA,wEAEI;AFJJ,AAEI,GAFD,AAAA,aAAa,CACd,MAAM,CACJ,EAAE,EAFN,GAAG,AAAA,aAAa,CACd,MAAM,CAEJ,EAAE,CAAC,EACD,MAAM,EAAE,cAAc,GACvB;;AALL,AAMI,GAND,AAAA,aAAa,CACd,MAAM,CAKJ,KAAK,CAAC,EAAE,CAAC,EACP,MAAM,EAAE,cAAc,GACvB;;AAIL,AAAA,GAAG,AAAA,iBAAiB,CAAC,EACnB,MAAM,EAAE,GAAG,GACZ;;AAGC,MAAM,oBADR,GAAA,AAAA,GAAG,AAAA,aAAa,CAAC,EAEb,KAAK,EAAE,IAAI,GAKd,EAAA;;AAHC,MAAM,oBAJR,GAAA,AAAA,GAAG,AAAA,aAAa,CAAC,EAKb,WAAW,EAAE,gCAAgC,GAEhD,EAAA"
+}

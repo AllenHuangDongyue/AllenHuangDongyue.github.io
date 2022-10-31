@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fullscreen-iframe.css",
+	"sources": [
+		"fullscreen-iframe.scss"
+	],
+	"sourcesContent": [
+		"html, body{\n\theight:100%;\n}\n\niframe.content{\n\tdisplay: none;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,EAAE,IAAI,CAAA,EACT,MAAM,EAAC,IAAI,GACX;;AAED,AAAA,MAAM,AAAA,QAAQ,CAAA,EACb,OAAO,EAAE,IAAI,GACb"
+}

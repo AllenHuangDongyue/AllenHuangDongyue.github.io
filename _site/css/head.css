@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#jumbotron { background: url("https://raw.githubusercontent.com/AllenHuangDongyue/AllenHuangDongyue.github.io/main/img/bg_h.png") no-repeat center center scroll; background-size: 100% 100%; }
+
+@media (min-width: 800px) { #jumbotron { height: 110vh; } }
+
+@media (max-width: 800px) { #jumbotron { height: 100%; } }
+
+#jumbotron div#blurBox { background-color: rgba(0, 0, 0, 0.3); }
+
+.mainTitle { font-family: 华文行楷; font-size: 95px; line-height: 60px; padding-left: 2px; }
+
+.two { writing-mode: vertical-lr; padding-left: 30%; padding-top: 0%; line-height: 65px; list-style: none; font-family: 楷体; font-size: 30px; margin: 0; height: 20%; }
+
+/*# sourceMappingURL=head.css.map */

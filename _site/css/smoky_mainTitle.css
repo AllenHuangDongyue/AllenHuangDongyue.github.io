@@ -1,0 +1,17 @@
+body { background: black; color: transparent; backface-visibility: hidden; }
+
+span-smokeMain { display: inline-block; text-shadow: 0 0 0 whitesmoke; animation: smoky 2s 2s both; }
+
+span-smokeMain:nth-child(even) { animation-name: smoky-mirror; }
+
+@keyframes smoky { 60% { text-shadow: 0 0 40px whitesmoke; }
+  from { transform: translate3d(0, 0, 20rem) scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0; } }
+
+@keyframes smoky-mirror { 60% { text-shadow: 0 0 40px whitesmoke; }
+  from { transform: translate3d(0, 0, 20rem) scale(2);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0; } }
+
+/*# sourceMappingURL=smoky_mainTitle.css.map */

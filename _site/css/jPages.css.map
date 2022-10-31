@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "jPages.css",
+	"sources": [
+		"jPages.scss",
+		"_sass/colors.scss",
+		"_sass/mixins.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n@import \"mixins\";\n\ndiv.pagination {\n  a {\n    padding: 2px;\n    margin: 5px;\n    color: $blue !important;\n    -moz-border-radius: 5px;\n    -webkit-border-radius: 5px;\n    border-radius: 4px;\n    text-decoration: none;\n    cursor: pointer;\n    &.jp-disabled {\n      color: $grey !important;\n      cursor: not-allowed;\n    }\n    &.jp-current {\n      color: $white !important;\n      background: $lightblue;\n    }\n  }\n}\n",
+		"$lightblue: #81b8e9;\n$blue: #0275d8;\n$darkblue: #05203e;\n$grey: #636c72;\n$orange: orange;\n$deepgrey: #111319;\n$midgrey: rgba(39, 38, 38, 0.7);\n$lightgrey: #ddd;\n$white: white;\n$red: #f50;\n$darkred: darkred;\n$lightgreen: #87d068;\n$black: black;",
+		"@mixin box-shadow($shadows...) {\n  -moz-box-shadow: $shadows;\n  -webkit-box-shadow: $shadows;\n  box-shadow: $shadows;\n}\n/* .xxx {\n  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999);\n} */\n\n@mixin transition($args...) {\n  -webkit-transition: $args;\n  -moz-transition: $args;\n  -o-transition: $args;\n  transition: $args;\n}\n\n@mixin animation($duration, $delay, $iterationCount) {\n  -webkit-animation-duration: $duration;\n  -webkit-animation-delay: $delay;\n  -webkit-animation-iteration-count: $iterationCount;\n  -moz-animation-duration: $duration;\n  -moz-animation-delay: $delay;\n  -moz-animation-iteration-count: $iterationCount;\n}"
+	],
+	"names": [],
+	"mappings": "AEKA,wEAEI;AFJJ,AACE,GADC,AAAA,WAAW,CACZ,CAAC,CAAC,EACA,OAAO,EAAE,GAAG,EACZ,MAAM,EAAE,GAAG,EACX,KAAK,ECNF,OAAO,CDMG,UAAU,EACvB,kBAAkB,EAAE,GAAG,EACvB,qBAAqB,EAAE,GAAG,EAC1B,aAAa,EAAE,GAAG,EAClB,eAAe,EAAE,IAAI,EACrB,MAAM,EAAE,OAAO,GAShB;;AAlBH,AAUI,GAVD,AAAA,WAAW,CACZ,CAAC,AASE,YAAY,CAAC,EACZ,KAAK,ECXJ,OAAO,CDWK,UAAU,EACvB,MAAM,EAAE,WAAW,GACpB;;AAbL,AAcI,GAdD,AAAA,WAAW,CACZ,CAAC,AAaE,WAAW,CAAC,EACX,KAAK,ECVH,KAAK,CDUO,UAAU,EACxB,UAAU,ECnBJ,OAAO,GDoBd"
+}
