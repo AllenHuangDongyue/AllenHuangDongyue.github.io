@@ -12,15 +12,20 @@
   @media (max-width: 800px) {
     height: 100%;
   }
-  font-family: 华文行楷;
   div#blurBox {
     background-color: rgba(0, 0, 0, 0.3);
   }
 }
+.mainTitle{
+  font-family: 华文行楷;
+  font-size: 95px;
+  line-height: 60px;
+  padding-left: 2px;
+}
 .two{
   writing-mode: vertical-lr;
-  font-family: 楷体;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 0%;
   line-height: 65px;
   list-style: none;
   font-family: 楷体;
