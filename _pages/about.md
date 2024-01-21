@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Office: ERB301, CUHK, Shatin, NT, Hong Kong</p>
     <p>Phone: (+86)13631482289</p>
-    <p>Phone: (+865)92189159
+    <p>Phone: (+0852)92189159
     <p>Email: dyhuang at mae dot cuhk dot edu dot hk</p>
 
 news: true  # includes a list of news items
