@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://AllenHuangDongyue.github.io/sitemap.xml
