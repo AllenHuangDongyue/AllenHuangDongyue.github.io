@@ -47,6 +47,6 @@ jobs:
       with:
         folder: _site
     - name: Fix permission  
-      run: 
+      run: |
           chmod a+x bin/*
           git commit -am "add execute permission to bin/deploy"
