@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Fast Event-based Double Integral for Real-time Robotics](https://ieeexplore.ieee.org/document/10160727) is accepted to [ICRA](https://www.icra2023.org/) 2023.
+**ICRA2023 papers**: Our two papers has been accepted by [ICRA2023](https://www.icra2023.org/). You are welcome to check on the Publication page. See you in London in May, 2023!

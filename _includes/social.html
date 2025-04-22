@@ -100,6 +100,9 @@
             {%- if site.youtube_id -%}
             <a href="https://youtube.com/@{{ site.youtube_id }}" title="YouTube"><i class="fab fa-youtube"></i></a>
             {% endif %}
+            {%- if site.bili_id -%}
+            <a href="https://space.bilibili.com/{{ site.bili_id }}" title="Bilibili"><i class="fab fa-bilibili"></i></a>
+            {% endif %}
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
             {% endif %}

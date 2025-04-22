@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [First Principle Modeling of a Morphable Unmanned Aerial-Aquatic Vehicle: Mirs-Alioth](https://ieeexplore.ieee.org/abstract/document/10591869/) is accepted as oral to the [ICCA 2024](http://www.mae.cuhk.edu.hk/~usr/icca2024/index.html) !
+**ICCA2024 paper**: Our paper "First Principle Modeling of a Morphable Unmanned Aerial-Aquatic Vehicle: Mirs-Alioth"  has been accepted by [ICCA 2024](http://www.mae.cuhk.edu.hk/~usr/icca2024/index.html).

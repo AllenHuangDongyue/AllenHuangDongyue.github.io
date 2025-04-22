@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Something cool :)
-nav: true
+nav: false
 nav_order: 2
 display_categories: [M.Sc., Ph.D.]
 horizontal: false

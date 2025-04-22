@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Aqua Slide: An Underwater Leveling Motion Scheme for M-UAAV Utilizing Singularity](https://ieeexplore.ieee.org/abstract/document/10770817) is accepted to the [TIE](https://www.ieee-ies.org/pubs/transactions-on-industrial-electronics) !
+**IEEE-TIE paper**: Our work "Aqua Slide: An Underwater Leveling Motion Scheme for M-UAAV Utilizing Singularity" has been accepted for publication by the *IEEE Transactions on Industrial Electronics*. More details can be found on my publication page.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our group win the [Guan Zhao-Zhi Award](https://www4.mae.cuhk.edu.hk/newsnawards/prof-ben-chens-ph-d-students-win-the-guan-zhao-zhi-award-at-the-42nd-chinese-control-conference/) at the 42nd [CCC](https://ccc2023en.nankai.edu.cn/) 2023!
+**Guan Zhao-Zhi Award**: Our group win the [Guan Zhao-Zhi Award](https://www4.mae.cuhk.edu.hk/newsnawards/prof-ben-chens-ph-d-students-win-the-guan-zhao-zhi-award-at-the-42nd-chinese-control-conference/) at the 42nd [CCC2023](https://ccc2023en.nankai.edu.cn/)!
