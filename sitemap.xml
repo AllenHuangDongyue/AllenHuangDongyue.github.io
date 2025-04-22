@@ -7,31 +7,171 @@
 >
 
 <url>
+ <loc>https://airs.cuhk.edu.cn/en</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www.cuhk.edu.hk/chinese/index.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>http://www.mae.cuhk.edu.hk/~bmchen/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www4.mae.cuhk.edu.hk/peoples/chen-xi/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>http://www.mae.cuhk.edu.hk/~usr/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www.pcl.ac.cn/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://en.tongji.edu.cn/p/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://english.gdut.edu.cn/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www.qub.ac.uk/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://pure.qub.ac.uk/en/persons/adrian-murphy</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www.visionnav.cn/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://2025.ieee-icra.org/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>http://www.mae.cuhk.edu.hk/~usr/icca2024/index.html</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://singapore24.oceansconference.org/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www4.mae.cuhk.edu.hk/newsnawards/prof-ben-chens-ph-d-students-win-the-guan-zhao-zhi-award-at-the-42nd-chinese-control-conference/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://ccc2023en.nankai.edu.cn/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://www.icra2023.org/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://scholar.google.com/citations?user=wDFQQRsAAAAJ&amp;hl</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://youtube.com/@MirsRobotics-huang</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
+ <loc>https://space.bilibili.com/473124843</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-04-22</lastmod>
+ <changefreq>always</changefreq>
+</url>
+
+<url>
  <loc>http://dongyuehuang.net/</loc>
  <priority>0.3</priority>
  <lastmod>2025-04-22</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>always</changefreq>
 </url>
 
 <url>
  <loc>http://dongyuehuang.net/publications</loc>
  <priority>0.3</priority>
  <lastmod>2025-04-22</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>always</changefreq>
 </url>
 
 <url>
  <loc>http://dongyuehuang.net/cv</loc>
  <priority>0.3</priority>
  <lastmod>2025-04-22</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>always</changefreq>
 </url>
 
 <url>
  <loc>http://dongyuehuang.net/news</loc>
  <priority>0.3</priority>
  <lastmod>2025-04-22</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>always</changefreq>
 </url>
 
 </urlset>
