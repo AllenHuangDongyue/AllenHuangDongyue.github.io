@@ -39,22 +39,22 @@
       institution: Peng Cheng Laboratory, Shenzhen, China
       year: 2020.7 - 2023.7
       description:
-        - Research on multi UAVs cooperative transportation.
-        - Research on multi UAVs cooperative formation.
+        # - Research on multi UAVs cooperative transportation.
+        # - Research on multi UAVs cooperative formation.
         
     - title: Resaerch Intern in Shanghai Research Institute for Intelligent Autonomous Systems
       institution: Tongji Unviersity, Shanghai, China
       year: 2022.12 - 2023.7
       description:
-        - Research on automous flight of Morphable UAAV.
-        - Research on cross-medium communication between morphable UAAV and Remote Operating Vehicle (ROV).
+        # - Research on automous flight of Morphable UAAV.
+        # - Research on cross-medium communication between morphable UAAV and Remote Operating Vehicle (ROV).
 
     - title: Algorithm Intern in Research and Development Department
       institution: VisionNav Robotics, Shenzhen, China
-      year: 2019.11 - 2019.12
+      year: 2019.11 - 2020.01
       description:
-        - Built the socket for the BOSCH laser measurement on Windows system.
-        - Successfully to equip the laser measurement on the forklift for mapping and measuring.
+        # - Built the socket for the BOSCH laser measurement on Windows system.
+        # - Successfully to equip the laser measurement on the forklift for mapping and measuring.
 
 # - title: Open Source Projects
 #   type: time_table
