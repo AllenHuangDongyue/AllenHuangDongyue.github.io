@@ -187,8 +187,11 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          {%- if entry.video %}
-          <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+          {%- if entry.youtube %}
+          <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button">Youtube</a>
+        {%- endif %}
+        {%- if entry.bilibili %}
+          <a href="{{ entry.bilibili }}" class="btn btn-sm z-depth-0" role="button">bilibili</a>
         {%- endif %}
           </div>
           {% if site.enable_publication_badges %}
